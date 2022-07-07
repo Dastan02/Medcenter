@@ -1,0 +1,60 @@
+.header {
+    &__title {
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 36px;
+        width: 400px;
+        position: relative;
+    }
+
+    &__med {
+        width: 94px;
+        height: 60px;
+        position: absolute;
+        top: 50px;
+        left: 150px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 10px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        margin-left: 30px;
+    }
+    &__item1 {
+        margin-left: 30px;
+    }
+
+    &__link {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 22px;
+        color: #535761;
+    }
+    &__link11 {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 22px;
+        color: #535761;
+        position: relative;
+    }
+
+    &__call {
+        width: 100px;
+        height: 45px;
+        position: absolute;
+        left: 1080px;
+        top: 75px;
+    }
+
+}
